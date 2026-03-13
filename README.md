@@ -17,6 +17,7 @@
     <img src="https://img.shields.io/badge/Contact-Gmail-ef4444?style=for-the-badge&logo=gmail" alt="Gmail" />
   </a>
 </p>
+<p align="center"> <a href="https://aaravshah1311.github.io/E-Shop"><img src="https://img.shields.io/badge/Live_Demo-GitHub_Pages-00dc82?style=for-the-badge&logo=github" alt="https://aaravshah1311.github.io/E-Shop"></a></p>
 
 ---
 
@@ -26,6 +27,12 @@
 It helps shop owners quickly log in, manage itemized billing, and generate printable invoices without complex setup.
 
 The project is fully front-end based, so you can run it directly in a browser or host it as a static website.
+
+## 🌐 Live Demo
+
+Try it online:
+
+➡️ **https://aaravshah1311.github.io/E-Shop**
 
 ## ✨ Core Features
 
@@ -51,10 +58,6 @@ The project is fully front-end based, so you can run it directly in a browser or
 </div>
 
 <br />
-
-<div align="center">
-  <img src="pic/collage.png" alt="E-Shop Screens Collage" width="90%" />
-</div>
 
 > ✅ All screenshots are loaded from the local `pic/` folder for clean, portable rendering on GitHub.
 
@@ -86,7 +89,13 @@ E-Shop/
 
 ## 💻 Installation & Usage
 
-### Option 1: Clone and Run Locally
+### Option 1: Use Live Version (Recommended)
+
+Open directly in your browser:
+
+➡️ **https://aaravshah1311.github.io/E-Shop**
+
+### Option 2: Run Locally
 
 1. Clone the repository:
 
@@ -95,13 +104,9 @@ E-Shop/
    cd E-Shop
    ```
 
-2. Open the login page in your browser:
+2. Open `login.html` in your browser.
 
-   ```text
-   login.html
-   ```
-
-### Option 2: Run with a Local Static Server
+### Option 3: Run with a Local Server
 
 ```bash
 python3 -m http.server 8080
