@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>E-Shop-Inventry</title>
+  <link rel="stylesheet" href="script/css.css">
+  <link rel="icon" href="script/shop.ico" type="image/x-icon">
+  <script src="script/js.js"></script>
+  <script>
+  function invent()
+  {
+	sessionStorage.setItem("a1", "50");
+	sessionStorage.setItem("a2", "50");
+	sessionStorage.setItem("a3", "50");
+	
+	sessionStorage.setItem("b1", "50");
+	sessionStorage.setItem("b2", "50");
+	sessionStorage.setItem("b3", "50");
+	
+	sessionStorage.setItem("c1", "50");
+	sessionStorage.setItem("c2", "50");
+	sessionStorage.setItem("c3", "50");
+	sessionStorage.setItem("c4", "50");
+	sessionStorage.setItem("c5", "50");
+	
+	sessionStorage.setItem("d1", "50");
+	sessionStorage.setItem("d2", "50");
+	sessionStorage.setItem("d3", "50");
+	sessionStorage.setItem("d4", "50");
+	sessionStorage.setItem("d5", "50");
+	sessionStorage.setItem("d6", "50");
+	
+	sessionStorage.setItem("e1", "50");
+	sessionStorage.setItem("e2", "50");
+	sessionStorage.setItem("e3", "50");
+	sessionStorage.setItem("e4", "50");
+	
+	sessionStorage.setItem("f1", "50");
+	sessionStorage.setItem("f2", "50");
+	sessionStorage.setItem("f3", "50");
+	
+	sessionStorage.setItem("g1", "50");
+	sessionStorage.setItem("g2", "50");
+	sessionStorage.setItem("g3", "50");
+	sessionStorage.setItem("g4", "50");
+	sessionStorage.setItem("g5", "50");
+	
+	popup("Inventry Reset");
+	setTimeout(function() {
+		location.reload();
+		}, 2500);
+  }
+  
+  function update(){
+  
+	var a1 = parseInt(sessionStorage.getItem("a1"), 10) || 0; 
+	var ia1 = parseInt(document.getElementById("ia1").value, 10) || 0; 
+	a1 += ia1; 
+	sessionStorage.setItem("a1", a1); 
+	document.getElementById("ia1").value = 0; 
+	var a2 = parseInt(sessionStorage.getItem("a2"), 10) || 0; 
+	var ia2 = parseInt(document.getElementById("ia2").value, 10) || 0; 
+	a2 += ia2; 
+	sessionStorage.setItem("a2", a2); 
+	document.getElementById("ia2").value = 0; 
+	var a3 = parseInt(sessionStorage.getItem("a3"), 10) || 0; 
+	var ia3 = parseInt(document.getElementById("ia3").value, 10) || 0; 
+	a3 += ia3; 
+	sessionStorage.setItem("a3", a3); 
+	document.getElementById("ia3").value = 0; 
+	
+	
+	var b1 = parseInt(sessionStorage.getItem("b1"), 10) || 0; 
+	var ib1 = parseInt(document.getElementById("ib1").value, 10) || 0; 
+	b1 += ib1; 
+	sessionStorage.setItem("b1", b1); 
+	document.getElementById("ib1").value = 0; 
+	var b2 = parseInt(sessionStorage.getItem("b2"), 10) || 0; 
+	var ib2 = parseInt(document.getElementById("ib2").value, 10) || 0; 
+	b2 += ib2; 
+	sessionStorage.setItem("b2", b2); 
+	document.getElementById("ib2").value = 0;
+	var b3 = parseInt(sessionStorage.getItem("b3"), 10) || 0; 
+	var ib3 = parseInt(document.getElementById("ib3").value, 10) || 0; 
+	b3 += ib3; 
+	sessionStorage.setItem("b3", b3); 
+	document.getElementById("ib3").value = 0; 
+	
+	
+	var c1 = parseInt(sessionStorage.getItem("c1"), 10) || 0; 
+	var ic1 = parseInt(document.getElementById("ic1").value, 10) || 0; 
+	c1 += ic1; 
+	sessionStorage.setItem("c1", c1); 
+	document.getElementById("ic1").value = 0; 
+	var c2 = parseInt(sessionStorage.getItem("c2"), 10) || 0; 
+	var ic2 = parseInt(document.getElementById("ic2").value, 10) || 0; 
+	c2 += ic2; 
+	sessionStorage.setItem("c2", c2); 
+	document.getElementById("ic2").value = 0; 
+	var c3 = parseInt(sessionStorage.getItem("c3"), 10) || 0; 
+	var ic3 = parseInt(document.getElementById("ic3").value, 10) || 0; 
+	c3 += ic3; 
+	sessionStorage.setItem("c3", c3); 
+	document.getElementById("ic3").value = 0; 
+	var c4 = parseInt(sessionStorage.getItem("c4"), 10) || 0; 
+	var ic4 = parseInt(document.getElementById("ic4").value, 10) || 0; 
+	c4 += ic4; 
+	sessionStorage.setItem("c4", c4); 
+	document.getElementById("ic4").value = 0; 
+	var c5 = parseInt(sessionStorage.getItem("c5"), 10) || 0; 
+	var ic5 = parseInt(document.getElementById("ic5").value, 10) || 0; 
+	c5 += ic5; 
+	sessionStorage.setItem("c5", c5); 
+	document.getElementById("ic5").value = 0; 
+	
+	
+	var d1 = parseInt(sessionStorage.getItem("d1"), 10) || 0; 
+	var id1 = parseInt(document.getElementById("id1").value, 10) || 0; 
+	d1 += id1; 
+	sessionStorage.setItem("d1", d1); 
+	document.getElementById("id1").value = 0; 
+	var d2 = parseInt(sessionStorage.getItem("d2"), 10) || 0; 
+	var id2 = parseInt(document.getElementById("id2").value, 10) || 0; 
+	d2 += id2; 
+	sessionStorage.setItem("d2", d2); 
+	document.getElementById("id2").value = 0; 
+	var d3 = parseInt(sessionStorage.getItem("d3"), 10) || 0; 
+	var id3 = parseInt(document.getElementById("id3").value, 10) || 0; 
+	d3 += id3; 
+	sessionStorage.setItem("d3", d3); 
+	document.getElementById("id3").value = 0; 
+	var d4 = parseInt(sessionStorage.getItem("d4"), 10) || 0; 
+	var id4 = parseInt(document.getElementById("id4").value, 10) || 0; 
+	d4 += id4; 
+	sessionStorage.setItem("d4", d4); 
+	document.getElementById("id4").value = 0; 
+	var d5 = parseInt(sessionStorage.getItem("d5"), 10) || 0; 
+	var id5 = parseInt(document.getElementById("id5").value, 10) || 0; 
+	d5 += id5; 
+	sessionStorage.setItem("d5", d5); 
+	document.getElementById("id5").value = 0; 
+	var d6 = parseInt(sessionStorage.getItem("d6"), 10) || 0; 
+	var id6 = parseInt(document.getElementById("id6").value, 10) || 0; 
+	d6 += id6; 
+	sessionStorage.setItem("d6", d6); 
+	document.getElementById("id6").value = 0; 
+	
+	
+	var e1 = parseInt(sessionStorage.getItem("e1"), 10) || 0; 
+	var ie1 = parseInt(document.getElementById("ie1").value, 10) || 0; 
+	e1 += ie1; 
+	sessionStorage.setItem("e1", e1); 
+	document.getElementById("ie1").value = 0; 
+	var e2 = parseInt(sessionStorage.getItem("e2"), 10) || 0; 
+	var ie2 = parseInt(document.getElementById("ie2").value, 10) || 0; 
+	e2 += ie2; 
+	sessionStorage.setItem("e2", e2); 
+	document.getElementById("ie2").value = 0; 
+	var e3 = parseInt(sessionStorage.getItem("e3"), 10) || 0; 
+	var ie3 = parseInt(document.getElementById("ie3").value, 10) || 0; 
+	e3 += ie3; 
+	sessionStorage.setItem("e3", e3); 
+	document.getElementById("ie3").value = 0; 
+	var e4 = parseInt(sessionStorage.getItem("e4"), 10) || 0; 
+	var ie4 = parseInt(document.getElementById("ie4").value, 10) || 0; 
+	e4 += ie4; 
+	sessionStorage.setItem("e4", e4); 
+	document.getElementById("ie4").value = 0; 
+	
+	
+	var f1 = parseInt(sessionStorage.getItem("f1"), 10) || 0; 
+	var if1 = parseInt(document.getElementById("if1").value, 10) || 0; 
+	f1 += if1; 
+	sessionStorage.setItem("f1", f1); 
+	document.getElementById("if1").value = 0; 
+	var f2 = parseInt(sessionStorage.getItem("f2"), 10) || 0; 
+	var if2 = parseInt(document.getElementById("if2").value, 10) || 0; 
+	f2 += if2; 
+	sessionStorage.setItem("f2", f2); 
+	document.getElementById("if2").value = 0; 
+	var f3 = parseInt(sessionStorage.getItem("f3"), 10) || 0; 
+	var if3 = parseInt(document.getElementById("if3").value, 10) || 0; 
+	f3 += if3; 
+	sessionStorage.setItem("f3", f3); 
+	document.getElementById("if3").value = 0; 
+	
+	
+	var g1 = parseInt(sessionStorage.getItem("g1"), 10) || 0; 
+	var ig1 = parseInt(document.getElementById("ig1").value, 10) || 0; 
+	g1 += ig1; 
+	sessionStorage.setItem("g1", g1); 
+	document.getElementById("ig1").value = 0; 
+	var g2 = parseInt(sessionStorage.getItem("g2"), 10) || 0; 
+	var ig2 = parseInt(document.getElementById("ig2").value, 10) || 0; 
+	g2 += ig2; 
+	sessionStorage.setItem("g2", g2); 
+	document.getElementById("ig2").value = 0; 
+	var g3 = parseInt(sessionStorage.getItem("g3"), 10) || 0; 
+	var ig3 = parseInt(document.getElementById("ig3").value, 10) || 0; 
+	g3 += ig3; 
+	sessionStorage.setItem("g3", g3); 
+	document.getElementById("ig3").value = 0; 
+	var g4 = parseInt(sessionStorage.getItem("g4"), 10) || 0; 
+	var ig4 = parseInt(document.getElementById("ig4").value, 10) || 0; 
+	g4 += ig4; 
+	sessionStorage.setItem("g4", g4); 
+	document.getElementById("ig4").value = 0; 
+	var g5 = parseInt(sessionStorage.getItem("g5"), 10) || 0; 
+	var ig5 = parseInt(document.getElementById("ig5").value, 10) || 0; 
+	g5 += ig5; 
+	sessionStorage.setItem("g5", g5); 
+	document.getElementById("ig5").value = 0; 
+	
+	popup("Inventry Updated");
+	setTimeout(function() {
+		location.reload();
+		}, 2500);
+  
+  }
+	
+  </script>
+  <style>
+  body{
+  padding: 10px;
+  }
+  table{
+  background-color: White;
+  border-radius: 5px;
+  width: 100%;
+  border: 2px solid;
+  padding: 5px;
+  box-shadow: 5px 7px grey;
+  }
+  tr,td{
+  text-align: center;
+  }
+  th{
+  background-color: orange;
+  color: White;
+  }
+  tr:hover{
+  background-color: grey;
+  color: white;
+  }
+    
+  .invent {
+            background-color: #3498db;
+            color: white;
+            height: 50px;
+            width: 500px;
+            padding: 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 15px;
+            transition: background-color 0.3s, transform 0.3s;
+            margin: 10px 0;
+            
+            align-items: center;
+            justify-content: center;
+			align: center;
+        }
+    .invent:hover {
+            background-color: #2980b9;
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+        }
+  
+  </style>
+</head>
+<body>
+<header>
+  <h1>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-shop" viewbox="0 0 16 16">
+        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5M4 15h3v-5H4zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm3 0h-2v3h2z">
+      </path></svg>
+	  E-Shop
+	</div>
+    <div>
+      Inventry Managment System
+    </div>  
+    <div>
+      <button onclick="return cart()" id="cart">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+			<path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+		</svg>Cart</button>
+	  &nbsp;
+	  <a href="../E-Shop.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+        </svg>
+    </a>
+    </div>
+	</h1>
+	</header>
+	<br>
+<div class="navcont">
+		<div>
+ <a href="Fan.html" target="_top"><input class="link fan" name="1" value="Cooling Fan's" type="submit"></a>
+		</div>
+		<div>
+ <a href="graphic%20card.html" target="_top"><input class="link graphic" name="2" value="Graphic card's" type="submit"></a>
+		</div>
+		<div>
+ <a href="motherbord.html" target="_top"><input class="link motherbord" name="3" value="Mother Bord's" type="submit"></a>
+		</div>
+		<div>
+ <a href="Processer.html" target="_top"><input class="link processer" name="4" value="Processer's(CPU)" type="submit"></a>
+		</div>
+		<div>
+ <a href="RAM.html" target="_top"><input class="link ram" name="5" value="RAM's" type="submit"></a>
+		</div>
+		<div>
+ <a href="smps.html" target="_top"><input class="link smps" name="6" value="Power Supply (SMPS)" type="submit"></a>
+		</div>
+		<div>
+ <a href="SSD.html" target="_top"><input class="link ssd" name="7" value="SSD's(Solid Sata Drive)" type="submit"></a>
+		</div>
+</div>
+<br>
+<br>
+<div>
+	<div>
+	<h3>1.Cooling Fan's</h3>
+	<table align="center">
+		<tr>
+			<th>Product No.</th>
+			<th>Product Name</th>
+			<th>Price(per/qty)</th>
+			<th>Stock Left</th>
+			<th>Add</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>JONSBO_RGB_cooling_Fan</td>
+			<td>7999</td>
+			<td id="a1"></td>
+			<td><input class="qty" id="ia1" maxlength="2" size="3" name="a1" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Reddragon_RGB_3+1_cooling_fan</td>
+			<td>4900</td>
+			<td id="a2"></td>
+			<td><input class="qty" id="ia2" maxlength="2" size="3" name="a2" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>RGB_cpu_cooling_fan</td>
+			<td>900</td>
+			<td id="a3"></td>
+			<td><input class="qty" id="ia3" maxlength="2" size="3" name="a3" value="0" type="number"></td>
+		</tr>
+	</table>
+	<br><br>
+	</div>
+	<div>
+	<h3>2.Graphic Card's</h3>
+	<table align="center">
+		<tr>
+			<th>Product No.</th>
+			<th>Product Name</th>
+			<th>Price(per/qty)</th>
+			<th>Stock Left</th>
+			<th>Add</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>GiGABYTE_3060_gta_rtx_force</td>
+			<td>18999</td>
+			<td id="b1"></td>
+			<td><input class="qty" id="ib1" maxlength="2" size="3" name="b1" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>GLAX_GeForce_4060_8gb</td>
+			<td>39999</td>
+			<td id="b2"></td>
+			<td><input class="qty" id="ib2" maxlength="2" size="3" name="b2" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>ROG_HERculux_graphic_card</td>
+			<td>29999</td>
+			<td id="b3"></td>
+			<td><input class="qty" id="ib3" maxlength="2" size="3" name="b3" value="0" type="number"></td>
+		</tr>
+	</table>
+	<br><br>
+	</div>
+	<div>
+	<h3>3.Mother bord's</h3>
+	<table align="center">
+		<tr>
+			<th>Product No.</th>
+			<th>Product Name</th>
+			<th>Price(per/qty)</th>
+			<th>Stock Left</th>
+			<th>Add</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>ASRock B450M-Hdv mother bord</td>
+			<td>4999</td>
+			<td id="c1"></td>
+			<td><input class="qty" id="ic1" maxlength="2" size="3" name="c1" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>ASUS ROG Gaming motherbord</td>
+			<td>30999</td>
+			<td id="c2"></td>
+			<td><input class="qty" id="ic2" maxlength="2" size="3" name="c2" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>ASUS_TUF_Gaming motherbord</td>
+			<td>24999</td>
+			<td id="c3"></td>
+			<td><input class="qty" id="ic3" maxlength="2" size="3" name="c3" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Gigabyte_B550_Gaming motherbord</td>
+			<td>12999</td>
+			<td id="c4"></td>
+			<td><input class="qty" id="ic4" maxlength="2" size="3" name="c4" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>MSI_B550_Gaming motherbord</td>
+			<td>13999</td>
+			<td id="c5"></td>
+			<td><input class="qty" id="ic5" maxlength="2" size="3" name="c5" value="0" type="number"></td>
+		</tr>
+	</table>
+	<br><br>
+	</div>
+	<div>
+	<h3>4.Processer's</h3>
+	<table align="center">
+		<tr>
+			<th>Product No.</th>
+			<th>Product Name</th>
+			<th>Price(per/qty)</th>
+			<th>Stock Left</th>
+			<th>Add</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>AMD_Ryzen_5</td>
+			<td>18999</td>
+			<td id="d1"></td>
+			<td><input class="qty" id="id1" maxlength="2" size="3" name="d1" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>AMD_Ryzen_7</td>
+			<td>29999</td>
+			<td id="d2"></td>
+			<td><input class="qty" id="id2" maxlength="2" size="3" name="d2" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>AMD_Ryzen_9</td>
+			<td>59999</td>
+			<td id="d3"></td>
+			<td><input class="qty" id="id3" maxlength="2" size="3" name="d3" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>i5</td>
+			<td>34999</td>
+			<td id="d4"></td>
+			<td><input class="qty" id="id4" maxlength="2" size="3" name="d4" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>i7_14th_gen</td>
+			<td>39999</td>
+			<td id="d5"></td>
+			<td><input class="qty" id="id5" maxlength="2" size="3" name="d5" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>i9_24core</td>
+			<td>42999</td>
+			<td id="d6"></td>
+			<td><input class="qty" id="id6" maxlength="2" size="3" name="d6" value="0" type="number"></td>
+		</tr>
+	</table>
+	<br><br>
+	</div>
+	<div>
+	<h3>5.RAM's</h3>
+	<table align="center">
+		<tr>
+			<th>Product No.</th>
+			<th>Product Name</th>
+			<th>Price(per/qty)</th>
+			<th>Stock Left</th>
+			<th>Add</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>CorSair_RGB_ddr4_32_gb_ram</td>
+			<td>9999</td>
+			<td id="e1"></td>
+			<td><input class="qty" id="ie1" maxlength="2" size="3" name="e1" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Curial_Pro_64_gb_ram_kit_ddr4</td>
+			<td>13999</td>
+			<td id="e2"></td>
+			<td><input class="qty" id="ie2" maxlength="2" size="3" name="e2" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>G-SKILL_RGB__2x16_gb_ram</td>
+			<td>17599</td>
+			<td id="e3"></td>
+			<td><input class="qty" id="ie3" maxlength="2" size="3" name="e3" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Lexar__2x16__gb_ram_ddr5</td>
+			<td>19999</td>
+			<td id="e4"></td>
+			<td><input class="qty" id="ie4" maxlength="2" size="3" name="e4" value="0" type="number"></td>
+		</tr>
+	</table>
+	<br><br>
+	</div>
+	<h3>6.Power Supply's</h3>
+	<table align="center">
+		<tr>
+			<th>Product No.</th>
+			<th>Product Name</th>
+			<th>Price(per/qty)</th>
+			<th>Stock Left</th>
+			<th>Add</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Redragon_psu007_850_watt_rgb_smps</td>
+			<td>4199</td>
+			<td id="f1"></td>
+			<td><input class="qty" id="if1" maxlength="2" size="3" name="f1" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>SMPS_POINWER_850_watt_rgb_fan</td>
+			<td>7900</td>
+			<td id="f2"></td>
+			<td><input class="qty" id="if2" maxlength="2" size="3" name="f2" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>YEYIAN_Pegasus_smps</td>
+			<td>5900</td>
+			<td id="f3"></td>
+			<td><input class="qty" id="if3" maxlength="2" size="3" name="f3" value="0" type="number"></td>
+		</tr>
+	</table>
+	<br><br>
+	</div>
+	<div>
+	<h3>7.SSD's</h3>
+	<table align="center">
+		<tr>
+			<th>Product No.</th>
+			<th>Product Name</th>
+			<th>Price(per/qty)</th>
+			<th>Stock Left</th>
+			<th>Add</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Crucial_2TB_ssd</td>
+			<td>24999</td>
+			<td id="g1"></td>
+			<td><input class="qty" id="ig1" maxlength="2" size="3" name="g1" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Patriot_viper_512gb_rgb_ssd</td>
+			<td>9999</td>
+			<td id="g2"></td>
+			<td><input class="qty" id="ig2" maxlength="2" size="3" name="g2" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>PNY_rgb_1tb_ssd</td>
+			<td>33999</td>
+			<td id="g3"></td>
+			<td><input class="qty" id="ig3" maxlength="2" size="3" name="g3" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Samsung_2tb_ssd</td>
+			<td>12999</td>
+			<td id="g4"></td>
+			<td><input class="qty" id="ig4" maxlength="2" size="3" name="g4" value="0" type="number"></td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>WD_BLACK_4tb_ssd</td>
+			<td>39999</td>
+			<td id="g5"></td>
+			<td><input class="qty" id="ig5" maxlength="2" size="3" name="g5" value="0" type="number"></td>
+		</tr>
+	</table>
+	<br><br>
+	</div>
+</div>
+<div class="navbar">
+	<button class="invent" onclick="update()">Update</button>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<button class="invent" onclick="invent()">Reset</button>
+	<a id="backToTopBtn"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+</svg></a>
+</div>
+<br><br><br><br>
+<script>
+	document.getElementById("backToTopBtn").onclick = function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        return false;
+    };
+	
+	var a1 = sessionStorage.getItem("a1");
+	document.getElementById("a1").innerHTML = a1;
+	var a2 = sessionStorage.getItem("a2");
+	document.getElementById("a2").innerHTML = a2;
+	var a3 = sessionStorage.getItem("a3");
+	document.getElementById("a3").innerHTML = a3;
+	
+	var b1 = sessionStorage.getItem("b1");
+	document.getElementById("b1").innerHTML = b1;
+	var b2 = sessionStorage.getItem("b2");
+	document.getElementById("b2").innerHTML = b2;
+	var b3 = sessionStorage.getItem("b3");
+	document.getElementById("b3").innerHTML = b3;
+	
+	var c1 = sessionStorage.getItem("c1");
+	document.getElementById("c1").innerHTML = c1;
+	var c2 = sessionStorage.getItem("c2");
+	document.getElementById("c2").innerHTML = c2;
+	var c3 = sessionStorage.getItem("c3");
+	document.getElementById("c3").innerHTML = c3;
+	var c4 = sessionStorage.getItem("c4");
+	document.getElementById("c4").innerHTML = c4;
+	var c5 = sessionStorage.getItem("c5");
+	document.getElementById("c5").innerHTML = c5;
+	
+	var d1 = sessionStorage.getItem("d1");
+	document.getElementById("d1").innerHTML = d1;
+	var d2 = sessionStorage.getItem("d2");
+	document.getElementById("d2").innerHTML = d2;
+	var d3 = sessionStorage.getItem("d3");
+	document.getElementById("d3").innerHTML = d3;
+	var d4 = sessionStorage.getItem("d4");
+	document.getElementById("d4").innerHTML = d4;
+	var d5 = sessionStorage.getItem("d5");
+	document.getElementById("d5").innerHTML = d5;
+	var d6 = sessionStorage.getItem("d6");
+	document.getElementById("d6").innerHTML = d6;
+	
+	var e1 = sessionStorage.getItem("e1");
+	document.getElementById("e1").innerHTML = e1;
+	var e2 = sessionStorage.getItem("e2");
+	document.getElementById("e2").innerHTML = e2;
+	var e3 = sessionStorage.getItem("e3");
+	document.getElementById("e3").innerHTML = e3;
+	var e4 = sessionStorage.getItem("e4");
+	document.getElementById("e4").innerHTML = e4;
+	
+	var f1 = sessionStorage.getItem("f1");
+	document.getElementById("f1").innerHTML = f1;
+	var f2 = sessionStorage.getItem("f2");
+	document.getElementById("f2").innerHTML = f2;
+	var f3 = sessionStorage.getItem("f3");
+	document.getElementById("f3").innerHTML = f3;
+	
+	var g1 = sessionStorage.getItem("g1");
+	document.getElementById("g1").innerHTML = g1;
+	var g2 = sessionStorage.getItem("g2");
+	document.getElementById("g2").innerHTML = g2;
+	var g3 = sessionStorage.getItem("g3");
+	document.getElementById("g3").innerHTML = g3;
+	var g4 = sessionStorage.getItem("g4");
+	document.getElementById("g4").innerHTML = g4;
+	var g5 = sessionStorage.getItem("g5");
+	document.getElementById("g5").innerHTML = g5;
+</script>
+</body>
+</html>

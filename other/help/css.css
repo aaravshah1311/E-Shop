@@ -1,0 +1,82 @@
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background-image: url('bg.jpg');
+}
+
+.container {
+    background: linear-gradient(135deg, #ff6f00 0%, #ffb74d 100%);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 90%;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    animation: fadeIn 1s ease-in-out, shine 2s infinite;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, rgba(255,255,255,0.3) 25%, transparent 50%, rgba(255,255,255,0.3) 75%);
+    transform: rotate(-30deg);
+    opacity: 0.5;
+    animation: shine 2s infinite;
+    pointer-events: none;
+}
+
+.message h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.message p {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes shine {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .message h2 {
+        font-size: 2rem;
+    }
+
+    .message p {
+        font-size: 1rem;
+    }
+}
