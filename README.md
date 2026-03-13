@@ -147,7 +147,7 @@ http://localhost:8080/login.html
 **Aarav Shah**
 
 - GitHub: https://github.com/aaravshah1311
-- Portfolio: aaravshah1311.is-great.net
+- Portfolio: https://aaravshah1311.is-great.net
 - Email: aaravprogrammers@gmail.com
 
 ---
