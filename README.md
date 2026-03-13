@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AP1311/E-Shop">
+  <a href="https://github.com/aaravshah1311/E-Shop">
     <img src="https://img.shields.io/badge/Repository-GitHub-111827?style=for-the-badge&logo=github" alt="Repository" />
   </a>
   <a href="mailto:aaravprogrammers@gmail.com">
@@ -141,7 +141,7 @@ http://localhost:8080/login.html
 
 **Aarav Shah**
 
-- GitHub: https://github.com/AP1311
+- GitHub: https://github.com/aaravshah1311
 - Email: aaravprogrammers@gmail.com
 - Telegram: https://t.me/aaravprogrmmers
 - WhatsApp: https://wa.me/+919426705633?text=Hi%20Aarav%20Programmers
