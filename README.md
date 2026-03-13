@@ -147,9 +147,8 @@ http://localhost:8080/login.html
 **Aarav Shah**
 
 - GitHub: https://github.com/aaravshah1311
+- Portfolio: aaravshah1311.is-great.net
 - Email: aaravprogrammers@gmail.com
-- Telegram: https://t.me/aaravprogrmmers
-- WhatsApp: https://wa.me/+919426705633?text=Hi%20Aarav%20Programmers
 
 ---
 
